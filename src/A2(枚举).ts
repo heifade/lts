@@ -6,7 +6,7 @@ enum Color {
 
 console.log(Color.Red);
 
-function ff(color: Color): string {
+function a2f1(color: Color): string {
   switch (color) {
     case Color.Red:
       return "red";
@@ -19,4 +19,4 @@ function ff(color: Color): string {
   }
 }
 
-ff(Color.Red);
+a2f1(Color.Red);

@@ -14,5 +14,5 @@ save({
   userId: "111",
   userName: "bbb",
   birthday: new Date(),
-  otherField: 111
+  otherField: 111, // 此字段不在方法的接口里
 });
