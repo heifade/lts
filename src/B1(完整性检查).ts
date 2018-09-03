@@ -1,6 +1,6 @@
 let b11: "production" | "development";
 
-function bf1(): string {
+function b1f1(): string {
   switch (b11) {
     case "production":
       return "production";
@@ -13,28 +13,27 @@ function bf1(): string {
   }
 }
 
-bf1();
-
+b1f1();
 
 //---------------------------------------------------------------------------------
 
-enum BColor {
+enum B1Color {
   Red,
   Green,
   Blue
 }
 
-function bf2(color: BColor): string {
+function b1f2(color: B1Color): string {
   switch (color) {
-    case BColor.Red:
+    case B1Color.Red:
       return "red";
-    case BColor.Green:
+    case B1Color.Green:
       return "green";
-    case BColor.Blue:
+    case B1Color.Blue:
       return "blue";
     // default:
     //   return "blue";
   }
 }
 
-bf2(BColor.Red);
+b1f2(B1Color.Red);

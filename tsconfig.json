@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
-    // "module": "commonjs",
-    "module": "system",
+    "module": "commonjs",
     "target": "es5",
-    // "outDir": "./dist",
-    "outFile": "./dist/out.js",
-    "strictNullChecks": true,
+    "outDir": "./dist",
+    "strictNullChecks": false,
     "allowJs": true
   },
   "include": [

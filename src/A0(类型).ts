@@ -6,7 +6,13 @@ let a05: [string, number] = ['aa', 1]; // 元组
 let a06: any = '1'; a06 = 1; a06 = true; // 动态类型
 
 
+a01 = 'aa'; // 类型错，应为 number
+a01 = null; // strictNullChecks 为 true时，null 不能赋值给number
+a01 = undefined; // strictNullChecks 为 true时，undefined 不能赋值给number
 
+
+// ------------------------------------------------------
+// 对象里的字段类型
 let a088: {
   stringField1: string;
   numberField2: number;
